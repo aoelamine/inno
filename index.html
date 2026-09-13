@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="InnCare (InnoCare) - Partenaire stratégique et expert en accès au marché pharmaceutique en Algérie depuis 2015. Services de conseil, enregistrement AMM, pharmacovigilance, promotion médicale et externalisation."
+    />
+    <title>InnCare - Conseil & Partenaire Pharmaceutique en Algérie</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/image.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome 6 Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarMain" data-bs-offset="100">
+    <!-- ==========================================
+       HEADER & NAVIGATION BAR
+       ========================================== -->
+    <nav
+      class="navbar navbar-expand-lg navbar-custom fixed-top"
+      id="navbarMain"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+          <img src="assets/image.png" alt="InnCare Logo" class="img-fluid" />
+        </a>
+
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navContent"
+          aria-controls="navContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-bars fs-4 text-primary"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navContent">
+          <ul class="navbar-nav ms-auto me-lg-4 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Qui Sommes-Nous ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Nos Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#values">Nos Valeurs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="#contact" class="btn btn-nav-cta">
+              <i class="fas fa-paper-plane me-2"></i>Nous Contacter
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================================
+       HERO / LANDING SECTION
+       ========================================== -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-shapes">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+      </div>
+
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="hero-badge">
+              <i class="fas fa-award text-info"></i> Partenaire de Confiance
+              depuis 2015
+            </div>
+            <h1 class="hero-title">
+              Votre Succès dans le <span>Secteur Pharmaceutique</span> en
+              Algérie.
+            </h1>
+            <p class="hero-subtitle">
+              Nous accompagnons nos partenaires internationaux et locaux à
+              chaque étape : de l'accès au marché et l’enregistrement des
+              produits, jusqu’à la promotion médicale et la pharmacovigilance.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#services" class="btn btn-hero-primary">
+                Explorer Nos Services <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#about" class="btn btn-hero-secondary">
+                En Savoir Plus <i class="fas fa-circle-info"></i>
+              </a>
+            </div>
+
+            <!-- Hero Quick Stats -->
+            <div class="row hero-stats-row g-3">
+              <div class="col-4">
+                <div class="stat-box">
+                  <div class="stat-number" data-target="32" data-suffix="+">
+                    32+
+                  </div>
+                  <div class="stat-label">Ans d'Expertise</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-box">
+                  <div class="stat-number" data-target="2015">2015</div>
+                  <div class="stat-label">Année Fondatrice</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-box">
+                  <div class="stat-number" data-target="7">7</div>
+                  <div class="stat-label">Services Clés</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-image-wrapper">
+              <div class="hero-card-glow">
+                <img
+                  src="assets/image.png"
+                  alt="InnCare Logo Graphic"
+                  class="hero-logo-img mb-3"
+                />
+                <!--<h4 class="text-primary-dark font-heading fw-bold mb-2">
+                  InnCare Algérie
+                </h4>-->
+                <p class="text-muted small mb-0">
+                  Créateur de valeur ajoutée & partenaire stratégique au service
+                  de la santé.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+       ABOUT US SECTION (Qui Sommes-Nous ?)
+       ========================================== -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">À Propos De Nous</span>
+          <h2 class="section-title">Qui Sommes-Nous ?</h2>
+          <p class="section-subtitle">
+            Un engagement d'excellence pour valoriser et développer vos projets
+            pharmaceutiques en Algérie.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="about-card-wrapper h-100">
+              <h3 class="h4 text-primary-dark fw-bold mb-3">
+                <i class="fas fa-handshake text-primary me-2"></i>Notre Mission
+                & Vision
+              </h3>
+              <p class="mb-4 text-secondary">
+                Fondée en <strong>2015</strong> avec l’engagement de créer une
+                valeur ajoutée au secteur pharmaceutique en Algérie, nous
+                accompagnons nos partenaires dans leurs projets afin d’accéder
+                au marché et y développer leurs activités.
+              </p>
+              <p class="mb-4 text-secondary">
+                De l’identification des opportunités commerciales à la gestion
+                de l’enregistrement des produits, en passant par leur promotion,
+                la supervision des appels d’offres et l’établissement de
+                partenariats fiables avec des distributeurs et fabricants
+                locaux,
+                <strong
+                  >nous aspirons à être un partenaire fiable pour votre
+                  succès.</strong
+                >
+              </p>
+
+              <div class="row g-3 mt-2">
+                <div class="col-sm-6">
+                  <div class="about-list-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                      <strong>Identification d'opportunités</strong>
+                      <div class="text-muted small">
+                        Analyse fine des opportunités commerciales.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="about-list-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                      <strong>Gestion AMM & Réglementaire</strong>
+                      <div class="text-muted small">
+                        Enregistrement et conformité stricte.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="about-list-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                      <strong>Promotion & Visite Médicale</strong>
+                      <div class="text-muted small">
+                        Une force terrain au cœur de notre métier.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="about-list-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                      <strong>Partenariats Locaux</strong>
+                      <div class="text-muted small">
+                        Réseau solide avec distributeurs & fabricants.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="d-flex flex-column gap-4 h-100">
+              <div class="about-highlight-box">
+                <div class="about-icon-circle">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <h4 class="h5 fw-bold text-primary-dark mb-2">
+                  Croissance & Développement
+                </h4>
+                <p class="text-secondary small mb-0">
+                  Nous bâtissons des plans d'accès sur-mesure pour vous
+                  positionner durablement sur le marché algérien.
+                </p>
+              </div>
+
+              <div class="about-highlight-box">
+                <div class="about-icon-circle">
+                  <i class="fas fa-user-shield"></i>
+                </div>
+                <h4 class="h5 fw-bold text-primary-dark mb-2">
+                  Rigueur & Pharmacovigilance
+                </h4>
+                <p class="text-secondary small mb-0">
+                  Une équipe dédiée qui analyse et évalue en continu les données
+                  d'effets indésirables pour garantir la sécurité.
+                </p>
+              </div>
+
+              <div class="about-highlight-box">
+                <div class="about-icon-circle">
+                  <i class="fas fa-network-wired"></i>
+                </div>
+                <h4 class="h5 fw-bold text-primary-dark mb-2">
+                  Gestion des Appels d'Offres
+                </h4>
+                <p class="text-secondary small mb-0">
+                  Accompagnement rigoureux pour la réponse et le suivi des
+                  appels d'offres pharmaceutiques en Algérie.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+       SERVICES SECTION (Nos Services)
+       ========================================== -->
+    <section id="services" class="services-section section-padding">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Nos Domaines d'Expertise</span>
+          <h2 class="section-title">Nos Services</h2>
+          <p class="section-subtitle">
+            Des solutions complètes et personnalisées pour répondre aux défis
+            stratégiques du marché pharmaceutique.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Service 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <span class="service-number">01</span>
+              <div class="service-icon-box">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="service-title">Conseil Commercial & Stratégique</h3>
+              <p class="service-desc">
+                Nous collaborons avec les meilleures entreprises locales pour
+                élaborer des stratégies uniques et sur mesure pour nos
+                partenaires.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <span class="service-number">02</span>
+              <div class="service-icon-box">
+                <i class="fas fa-door-open"></i>
+              </div>
+              <h3 class="service-title">Market Access</h3>
+              <p class="service-desc">
+                Nous accompagnons nos partenaires dans le développement de leurs
+                plans d'accès au marché, en offrant des conseils ciblés.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <span class="service-number">03</span>
+              <div class="service-icon-box">
+                <i class="fas fa-file-signature"></i>
+              </div>
+              <h3 class="service-title">Affaires Réglementaires</h3>
+              <p class="service-desc">
+                Nous offrons des services de conseil, incluant l’enregistrement,
+                la maintenance et le transfert des autorisations de mise sur le
+                marché "AMM".
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <span class="service-number">04</span>
+              <div class="service-icon-box">
+                <i class="fas fa-notes-medical"></i>
+              </div>
+              <h3 class="service-title">Pharmacovigilance</h3>
+              <p class="service-desc">
+                Notre équipe évalue et analyse les données relatives aux effets
+                indésirables, garantissant ainsi une réponse rapide et
+                appropriée.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <span class="service-number">05</span>
+              <div class="service-icon-box">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+              <h3 class="service-title">Promotion & Marketing</h3>
+              <p class="service-desc">
+                La visite médicale est au cœur de notre expertise, et nous la
+                mettons à disposition de nos partenaires.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <span class="service-number">06</span>
+              <div class="service-icon-box">
+                <i class="fas fa-briefcase-medical"></i>
+              </div>
+              <h3 class="service-title">Activités Médicales</h3>
+              <p class="service-desc">
+                Nous aidons nos partenaires dans la gestion et le développement
+                de leurs activités médicales.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 7 (Centered in bottom row for large screens) -->
+          <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="service-card">
+              <span class="service-number">07</span>
+              <div class="service-icon-box">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h3 class="service-title">Externalisation</h3>
+              <p class="service-desc">
+                Nous proposons des solutions sur mesure pour l'externalisation
+                de vos activités, afin d'optimiser l’organisation et la gestion
+                de vos opérations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+       OUR VALUES SECTION (Nos Valeurs)
+       ========================================== -->
+    <section id="values" class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Ce Qui Nous Guide</span>
+          <h2 class="section-title">Nos Valeurs</h2>
+          <p class="section-subtitle">
+            Les principes fondamentaux au cœur de notre culture d'entreprise et
+            de chaque partenariat.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Valeur 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-icon-wrapper">
+                <i class="fas fa-scale-balanced"></i>
+              </div>
+              <h3 class="value-title">Conformité & Éthique</h3>
+              <p class="value-desc">
+                La conformité et l’éthique sont au centre de nos valeurs et de
+                toutes nos interactions internes et externes.
+              </p>
+            </div>
+          </div>
+
+          <!-- Valeur 2 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-icon-wrapper">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h3 class="value-title">Transparence</h3>
+              <p class="value-desc">
+                Nous croyons en une communication honnête et directe avec nos
+                partenaires, et ce quelle que soit la situation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Valeur 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-icon-wrapper">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h3 class="value-title">Accessibilité</h3>
+              <p class="value-desc">
+                Nous nous engageons à être disponibles, à l’écoute et à répondre
+                activement aux besoins de nos partenaires.
+              </p>
+            </div>
+          </div>
+
+          <!-- Valeur 4 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-icon-wrapper">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <h3 class="value-title">Expertise</h3>
+              <p class="value-desc">
+                Fort d’un management qui dispose de plus de 32 ans d’expérience
+                cumulée que nous mettons au service de nos partenaires.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+       CONTACT SECTION
+       ========================================== -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag">Discutons de vos projets</span>
+          <h2 class="section-title">Contactez-Nous</h2>
+          <p class="section-subtitle">
+            Vous souhaitez développer vos activités en Algérie ? Notre équipe
+            d'experts est à votre écoute.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Contact Info Card -->
+          <div class="col-lg-5">
+            <div class="contact-info-card">
+              <h3>Restons en Contact</h3>
+              <p class="text-light opacity-75 mb-4">
+                N'hésitez pas à nous envoyer une demande. Nous nous engageons à
+                vous apporter une réponse personnalisée dans les meilleurs
+                délais.
+              </p>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-location-dot"></i>
+                </div>
+                <div class="contact-item-text">
+                  <label>Adresse</label>
+                  <p>Alger, Algérie</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-item-text">
+                  <label>Adresse Email</label>
+                  <p>contact@inncare-pharma.dz</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-item-text">
+                  <label>Téléphone</label>
+                  <p>+213 (0) 23 XX XX XX</p>
+                </div>
+              </div>
+
+              <div class="contact-item mb-0">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-item-text">
+                  <label>Heures d'Ouverture</label>
+                  <p>Dimanche - Jeudi : 08h30 - 16h30</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <h3 class="h4 text-primary-dark fw-bold mb-4">
+                Envoyez-nous un Message
+              </h3>
+
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label
+                      for="fullName"
+                      class="form-label font-heading fw-semibold"
+                      >Nom complet <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fullName"
+                      placeholder="Ex: Jean Dupont"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label
+                      for="emailAddr"
+                      class="form-label font-heading fw-semibold"
+                      >Adresse Email <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailAddr"
+                      placeholder="nom@entreprise.com"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label
+                      for="phoneNum"
+                      class="form-label font-heading fw-semibold"
+                      >Numéro de Téléphone</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phoneNum"
+                      placeholder="+213 ..."
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label
+                      for="serviceSelect"
+                      class="form-label font-heading fw-semibold"
+                      >Service Concerné</label
+                    >
+                    <select class="form-select" id="serviceSelect">
+                      <option value="" selected>
+                        Sélectionner un service...
+                      </option>
+                      <option value="conseil">
+                        Conseil Commercial & Stratégique
+                      </option>
+                      <option value="market_access">Market Access</option>
+                      <option value="reglementaire">
+                        Affaires Réglementaires (AMM)
+                      </option>
+                      <option value="pharmacovigilance">
+                        Pharmacovigilance
+                      </option>
+                      <option value="marketing">Promotion & Marketing</option>
+                      <option value="medical">Activités Médicales</option>
+                      <option value="externalisation">Externalisation</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label
+                      for="msgContent"
+                      class="form-label font-heading fw-semibold"
+                      >Votre Message <span class="text-danger">*</span></label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="msgContent"
+                      rows="4"
+                      placeholder="Décrivez votre besoin ou votre projet..."
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-submit">
+                      <i class="fas fa-paper-plane me-2"></i>Envoyer le Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <div id="formFeedback" class="mt-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+       FOOTER SECTION
+       ========================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img
+                src="assets/logo.svg"
+                alt="InnCare Logo"
+                height="42"
+                style="filter: brightness(0) invert(1)"
+              />
+            </div>
+            <p class="small text-light opacity-75 mb-3">
+              Fondée en 2015, InnCare est votre partenaire fiable pour accéder
+              au marché pharmaceutique en Algérie et y développer durablement
+              vos activités.
+            </p>
+            <div class="d-flex gap-3 text-light">
+              <a href="#" class="text-light opacity-75 hover-opacity-100 fs-5"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="text-light opacity-75 hover-opacity-100 fs-5"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-light opacity-75 hover-opacity-100 fs-5"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5>Navigation</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="#hero"><i class="fas fa-angle-right"></i> Accueil</a>
+              </li>
+              <li>
+                <a href="#about"
+                  ><i class="fas fa-angle-right"></i> Qui Sommes-Nous</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-angle-right"></i> Nos Services</a
+                >
+              </li>
+              <li>
+                <a href="#values"
+                  ><i class="fas fa-angle-right"></i> Nos Valeurs</a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><i class="fas fa-angle-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5>Services Principaux</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-angle-right"></i> Market Access</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-angle-right"></i> Affaires Réglementaires
+                  (AMM)</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-angle-right"></i> Pharmacovigilance</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-angle-right"></i> Promotion & Visite
+                  Médicale</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-angle-right"></i> Externalisation</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5>Coordonnées</h5>
+            <p class="small mb-2">
+              <i class="fas fa-location-dot text-info me-2"></i> Alger, Algérie
+            </p>
+            <p class="small mb-2">
+              <i class="fas fa-envelope text-info me-2"></i>
+              contact@inncare-pharma.dz
+            </p>
+            <p class="small mb-2">
+              <i class="fas fa-clock text-info me-2"></i> Dim - Jeu : 08h30 -
+              16h30
+            </p>
+            <p class="small mb-0">
+              <i class="fas fa-shield-halved text-info me-2"></i> Conformité &
+              Éthique 100%
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+          <p class="mb-0">
+            &copy; 2026 <strong>InnCare</strong>. Tous droits réservés. Votre
+            partenaire de confiance pour le secteur pharmaceutique en Algérie.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Back-to-Top Button -->
+    <a href="#" class="back-to-top" aria-label="Retour en haut">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap 5.3 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
